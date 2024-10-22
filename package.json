@@ -1,6 +1,6 @@
 {
     "name": "@pwa-fundament/themes",
-    "version": "1.0.0-beta1",
+    "version": "1.0.0-beta2",
     "description": "The repository to clone as project template",
     "main": "index.ts",
     "scripts": {
