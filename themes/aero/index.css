@@ -165,6 +165,7 @@
     /* text */
     --control-font-size: 0.8rem;
     --icon-size: 1rem;
+    --button-icon-size: 0.8rem;
 
     /* spacing */
     --gap-in-grid: 4px;

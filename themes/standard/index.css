@@ -71,6 +71,7 @@
     /* text */
     --control-font-size: 0.9rem;
     --icon-size: 1.1rem;
+    --button-icon-size: 0.9rem;
 
     /* spacing */
     --gap-in-grid: 4px;
