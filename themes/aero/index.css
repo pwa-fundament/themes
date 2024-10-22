@@ -19,31 +19,38 @@
 
     --input-background: white;
     --surface-background: hsla(0, 0%, 0%, 5%);
+
     --progress-background: linear-gradient(
         to bottom,
         hsla(0, 0%, 85%, 100%),
         hsla(0, 0%, 97%, 100%)
     );
     --progress-value-background: linear-gradient(
-	to bottom,
-	hsl(130, 80%, 50%) 0%,
-	hsl(130, 80%, 55%) 50%,
-	hsl(130, 80%, 45%) 51%,
-	hsl(130, 80%, 60%) 100%
+        to bottom,
+        hsl(130, 80%, 50%) 0%,
+        hsl(130, 80%, 55%) 50%,
+        hsl(130, 80%, 45%) 51%,
+        hsl(130, 80%, 60%) 100%
     );
 
     --slider-background: linear-gradient(
         to bottom,
         hsla(0, 0%, 85%, 100%),
         hsla(0, 0%, 97%, 100%)
-    --slider-value-background: linear-gradient(
-	to bottom,
-	hsl(var(--primary-hue), 80%, 50%) 0%,
-	hsl(var(--primary-hue), 80%, 55%) 50%,
-	hsl(var(--primary-hue), 80%, 45%) 51%,
-	hsl(var(--primary-hue), 80%, 60%) 100%
     );
-
+    --slider-value-background: linear-gradient(
+        to bottom,
+        hsl(var(--primary-hue), 80%, 50%) 0%,
+        hsl(var(--primary-hue), 80%, 55%) 50%,
+        hsl(var(--primary-hue), 80%, 45%) 51%,
+        hsl(var(--primary-hue), 80%, 60%) 100%
+    );
+    --slider-thumb-background: linear-gradient(
+        to bottom,
+        hsl(var(--primary-hue), 50%, 95%) 0%,
+        hsl(var(--primary-hue), 50%, 90%) 50%,
+        hsl(var(--primary-hue), 50%, 85%) 51%,
+        hsl(var(--primary-hue), 50%, 95%) 100%
     );
 
     --checkbox-background: linear-gradient(to bottom, #f6f6f6 0%, #eaeaea 100%);
@@ -158,6 +165,7 @@
     --input-shadow: inset 1px 1px 2px rgba(0, 0, 0, 10%);
     --progress-value-shadow: 0px 0px 2px hsla(0, 0%, 0%, 30%);
     --slider-value-shadow: 0px 0px 2px hsla(0, 0%, 0%, 30%);
+    --slider-thumb-shadow: 0px 0px 2px hsla(0, 0%, 0%, 50%);
     --overlay-shadow: 0px 0px 20px hsla(0, 0%, 0%, 10%);
 
     --overlay-backdrop-blur: 3px;
@@ -185,7 +193,9 @@
     /* sizes */
     --control-height: 24px;
     --progress-bar-height: 18px;
-    --slider-height: 18px;
+    --slider-height: 8px;
+    --slider-thumb-width: 6px;
+    --slider-thumb-height: 18px;
     --checkbox-size: 16px;
 
     --max-input-width: 24rem;
@@ -200,6 +210,7 @@
     --textfielld-corner-radius: 0px;
     --progress-bar-corner-radius: 10px;
     --slider-corner-radius: 10px;
+    --slider-thumb-corner-radius: 10px;
     --surface-corner-radius: 5px;
     --overlay-corner-radius: 6px;
 

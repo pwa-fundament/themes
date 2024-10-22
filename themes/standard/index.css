@@ -9,10 +9,16 @@
     --base-background: hsla(var(--primary-hue), 15%, 90%, 100%);
     --overlay-background: hsla(0, 0%, 90%, 90%);
 
-    --surface-background: hsla(0, 0%, 100%, 50%);
     --input-background: var(--surface-background);
+    --surface-background: hsla(0, 0%, 100%, 50%);
+
     --progress-background: var(--surface-background);
+    --progress-value-background: hsl(var(--primary-hue), 99%, 53%);
+
     --slider-background: var(--surface-background);
+    --slider-value-background: hsl(var(--primary-hue), 99%, 53%);
+    --slider-thumb-background: hsl(0, 0%, 100%);
+
     --checkbox-background: var(--surface-background);
     --checkbox-checked-background: hsl(var(--primary-hue), 99%, 53%);
     --radio-checked-foreground: white;
@@ -35,9 +41,6 @@
     --danger-button-hover: hsl(357, 75%, 40%);
     --danger-button-active: hsl(357, 75%, 30%);
     --danger-button-foreground: white;
-
-    --slider-value-background: hsl(var(--primary-hue), 99%, 53%);
-    --progress-value-background: hsl(var(--primary-hue), 99%, 53%);
 
     /* border */
     --standard-border-color: hsla(0, 0%, 0%, 0%);
@@ -62,6 +65,7 @@
     --input-shadow: 0px 0px 5px hsla(0, 0%, 0%, 0%);
     --progress-value-shadow: 0px 0px 5px hsla(0, 0%, 0%, 0%);
     --slider-value-shadow: 0px 0px 5px hsla(0, 0%, 0%, 0%);
+    --slider-thumb-shadow: 0px 0px 5px hsla(0, 0%, 0%, 15%);
     --overlay-shadow: 0px 0px 20px hsla(0, 0%, 0%, 10%);
 
     --control-backdrop-blur: 120px;
@@ -90,7 +94,9 @@
     /* sizes */
     --control-height: 34px;
     --progress-bar-height: 24px;
-    --slider-height: 24px;
+    --slider-height: 8px;
+    --slider-thumb-width: 6px;
+    --slider-thumb-height: 18px;
     --checkbox-size: 16px;
 
     --max-input-width: 24rem;
@@ -105,6 +111,7 @@
     --textfielld-corner-radius: 0px;
     --progress-bar-corner-radius: 0px;
     --slider-corner-radius: 0px;
+    --slider-thumb-corner-radius: 10px;
     --surface-corner-radius: 0px;
     --overlay-corner-radius: 0px;
 
