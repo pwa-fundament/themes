@@ -15,7 +15,7 @@
     --progress-background: var(--surface-background);
     --progress-value-background: hsl(var(--primary-hue), 99%, 53%);
 
-    --slider-background: var(--surface-background);
+    --slider-background: hsl(0, 0%, 40%);
     --slider-value-background: hsl(var(--primary-hue), 99%, 53%);
     --slider-thumb-background: hsl(0, 0%, 100%);
 
@@ -128,6 +128,7 @@
         --overlay-background: hsla(0, 0%, 0%, 70%);
 
         --surface-background: hsla(0, 0%, 15%, 50%);
+    --slider-background: hsl(0, 0%, 60%);
 
         --disabled-button-background: hsla(0, 0%, 0%, 3%);
 
